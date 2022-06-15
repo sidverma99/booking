@@ -1,0 +1,31 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    z-index: 1;
+}
+.featured::-webkit-scrollbar{
+    display: none;
+}
+.featuredItem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    height: 250px;
+    flex:1;
+}
+.featuredImg{
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.featuredTitle{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

@@ -1,0 +1,41 @@
+.pList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.pList::-webkit-scrollbar{
+    display: none;
+}
+.pListItem{
+    cursor: pointer;
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    height: 200px;
+    flex:1;
+}
+
+.pListImg{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.pListTitles{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.pListTitles>h1{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.pListTitles>h2{
+    font-size: 15px;
+}
