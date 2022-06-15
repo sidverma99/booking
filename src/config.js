@@ -1,5 +1,7 @@
 import axios from "axios";
 
-export default axiosInstance=axios.create({
+const axiosInstance=axios.create({
     baseURL: "https://hotelsidapi.herokuapp.com/api"
-})
+});
+
+export default axiosInstance;
